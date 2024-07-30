@@ -9,7 +9,7 @@ type InputType = {
 function Input({ type = 'text', value = '', name, placeholder, styles = {}, onChange }: InputType) {
     return (
         <input
-            className="mb-4 px-2 py-1"
+            className="mb-4 px-3 py-2"
             name={name}
             type={type}
             value={value}
