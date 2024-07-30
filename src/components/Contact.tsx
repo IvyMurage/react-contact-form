@@ -10,13 +10,13 @@ function Contact() {
         <p>{info[1]}</p>
     </div>)
     return (
-        <div className='text-white grid p-4 grid-cols-2 bg-gradient-to-r from-dark-blue to-linear'>
-            <div>
-                <h1 className='font-bold p-4 text-4xl'>{info.title.toUpperCase()}</h1>
-                <p className='p-4'>{info.content}</p>
+        <div className='text-white grid border-2 p-12 items-center m-auto grid-cols-2' >
+            <div className=''>
+                <h1 className='font-bold  text-4xl'>{info.title.toUpperCase()}</h1>
+                <p className=''>{info.content}</p>
                 <Form />
             </div>
-            <div className=''>
+            <div className='place-self-end border-2 h-full'>
                 {contactList}
             </div>
         </div>

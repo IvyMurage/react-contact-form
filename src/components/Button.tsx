@@ -4,7 +4,7 @@ type ButtonProps = {
 }
 function Button({ placeholder, type = 'button', }: ButtonProps) {
     return (
-        <button type={type}>
+        <button className="border-2 rounded-3xl px-8 p-2" type={type}>
             {placeholder}
         </button>
     )
