@@ -16,7 +16,7 @@ function Contact() {
                 <p className='p-4'>{info.content}</p>
                 <Form />
             </div>
-            <div className=''>
+            <div className='place-self-end'>
                 {contactList}
             </div>
         </div>
