@@ -2,11 +2,9 @@
     "title": "get in touch",
     "content": "Please fill out the form below to send us an email and we will get back to you as soon as possible.",
     "contact_info": {
-        "Title":"contact info",
         "Address": "4321 California St, San Francisco, CA 12345",
         "Phone": " +1 123 456 1234",
         "Email": "info@company.com"
-    },
+    }
 
-  "user": []
 }
