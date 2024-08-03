@@ -2,9 +2,50 @@
     "title": "get in touch",
     "content": "Please fill out the form below to send us an email and we will get back to you as soon as possible.",
     "contact_info": {
-        "Address": "4321 California St, San Francisco, CA 12345",
-        "Phone": " +1 123 456 1234",
-        "Email": "info@company.com"
+        "Title":"contact info",
+        "blocks":[
+           {
+            "title":"Address",
+            "content":"4321 California St, San Francisco, CA 12345"
+          },
+          {
+            "title":"Phone",
+            "content":" +1 123 456 1234"
+          },
+          {
+            "title":"Email",
+            "content":"info@company.com"
+          }
+          ]
+       },
+       "nav_info":{
+        "Title": "React Landing Page",
+        "links": ["features", "about", "services", "gallery", "testimonials", "team", "contact"]
+       },
+       "home_page": {
+        "title": "We are a landing page",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+       },    
+       "features": {
+        "title": "Features",
+        "content": [
+          {
+            "title": "Lorem ipsum",
+            "description": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.",
+            "iconType":"chats"
+          } , {
+            "title": "Lorem ipsum",
+            "description": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.",
+            "iconType": "megaphone"
+          }  ,{
+            "title": "Lorem ipsum",
+            "description": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.",
+            "iconType":"users"
+          } ,{
+            "title": "Lorem ipsum",
+            "description": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.",
+            "iconType":"magic-sparkles"
+          }
+        ]
+       }
     }
-
-}

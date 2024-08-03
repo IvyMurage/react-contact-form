@@ -1,11 +1,17 @@
-import Contact from "./components/Contact"
+import Contact from "./sections/Contact"
+import Home from "./sections/Home"
+import Nav from "./components/Nav"
+import Features from "./sections/Features"
 
 function App() {
   return (
     <>
-      <div className="bg-gradient-to-r from-dark-blue to-linear p-5">
+      <Nav />
+      <Home />
+      <Features />
+      {/* <div className="bg-gradient-to-r from-dark-blue to-linear p-5">
         <Contact />
-      </div>
+      </div> */}
     </>
   )
 }
