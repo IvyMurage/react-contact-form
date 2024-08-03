@@ -1,8 +1,7 @@
-import Content from '../content.json'
+import { about } from '../content.json'
 import AboutInfo from '../components/AboutInfo'
 import { nanoid } from 'nanoid'
 function About() {
-    const { about } = Content
 
     const reasonsList = about.reasons.reason.map(key => <li id='list' className='before:text-dark-blue before:pr-2 ' key={nanoid()}>{key}</li>)
     return (

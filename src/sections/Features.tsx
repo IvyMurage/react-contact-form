@@ -1,11 +1,12 @@
 import { faBullhorn, faComment, faMagicWandSparkles, faUsers } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import content from '../content.json'
+import { features } from '../content.json'
 import InfoCard from "../components/InfoCard";
+import { nanoid } from "nanoid";
 
 function Features() {
 
-    const { content: Descriptions, title: featureTitle } = content.features
+    const { content: Descriptions, title: featureTitle } = features
 
     const descriptionList = Descriptions.map(description => {
         let icon;
@@ -27,6 +28,7 @@ function Features() {
                 icon = null;
         }
         return <InfoCard
+            key={nanoid()}
             icon={icon}
             title={description.title}
             description={description.description}

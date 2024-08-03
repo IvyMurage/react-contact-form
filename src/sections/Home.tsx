@@ -1,8 +1,8 @@
-import Content from '../content.json'
+import { home_page } from '../content.json'
 import Button from '../components/Button'
 function Home() {
 
-    const { home_page: { title, paragraph } } = Content
+    const { title, paragraph } = home_page
     return (
         <div className='bg-no-repeat h-[1000px] -z-10 flex items-center flex-col  bg-cover bg-center bg-hero p-6' >
             <div className='-z-1000 h-[1000px]  absolute inset-0 
