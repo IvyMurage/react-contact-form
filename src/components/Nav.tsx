@@ -15,7 +15,7 @@ function Nav() {
 
     const navList = links.map((link: string) =>
         <NavLink
-            to='link'
+            to={`/${link}`}
             style={({ isActive }) => isActive ? styles : {}}
             key={nanoid()}
             className='py-2 px-1 sm:px-4  text-basex tracking-wide'

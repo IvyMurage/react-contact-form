@@ -1,9 +1,10 @@
 import { home_page } from '../content.json'
 import Button from '../components/Button'
+import { Outlet } from 'react-router-dom'
 function Home() {
 
     const { title, paragraph } = home_page
-    return (
+    return (<>
         <div className='bg-no-repeat h-[1000px] -z-10 flex items-center flex-col  bg-cover bg-center bg-hero p-6' >
             <div className='-z-1000 h-[1000px]  absolute inset-0 
                     bg-gray-900 opacity-20'>
@@ -17,7 +18,10 @@ function Home() {
                     styles=' bg-gradient-to-r from-dark-blue to-linear border-none py-3 px-10 mt-0'
                 />
             </div>
+
         </div>
+        {<Outlet />}
+    </>
     )
 }
 
